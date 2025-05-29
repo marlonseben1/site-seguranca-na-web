@@ -127,33 +127,43 @@ body {
 /* Estilos homepage web */
 
 @media (min-width: 768px) {
+  #homepage {
+    justify-content: flex-start;
+    height: 35rem;
+  }
+
   .console {
-    max-width: 42rem;
-    margin-top: 1rem;
-    margin-bottom: 7rem;
+    max-width: 36rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
     height: 20rem;
+    position: relative;
   }
 
   #hacker {
-    top: 20rem;
-    max-width: 17rem;
-    /* left: 55rem; */
+    top: 22rem;
+    left: 75%;
+    max-width: 18rem;
   }
 
   .botao {
-    width: 18%;
+    width: 20%;
     height: 100%;
     cursor: pointer;
+    font-size: 1.2rem;
   }
 
   .botoes {
+    max-width: 36rem;
+    height: auto;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     gap: 2rem;
   }
 
   #titulo-principal {
     font-size: 2.8rem;
   }
-
 }
+
+/* Estilos dicas mobile */
