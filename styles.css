@@ -84,7 +84,7 @@ body {
 
 #hacker {
   position: absolute;
-  top: 20rem;
+  top: 22rem;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 100%;
@@ -116,17 +116,17 @@ body {
 
 @media (max-width: 427px) {
   .console {
-    margin-bottom: 10rem;
+    margin-bottom: 16rem;
   }
 
   #hacker {
-    top: 24rem;
+    top: 22.5rem;
   }
 }
 
 /* Estilos homepage web */
 
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   #homepage {
     justify-content: flex-start;
     height: auto;
@@ -147,10 +147,10 @@ body {
   }
 
   .botao {
-    width: 20%;
+    width: clamp(70px, 20%, 300px);
     height: 100%;
     cursor: pointer;
-    font-size: 2.2rem;
+    font-size: clamp(16px, 2.5vw, 35px);
   }
 
   .botoes {
