@@ -99,17 +99,22 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .botao {
   margin-top: 2rem;
   width: 50%;
   height: 5rem;
-  border-radius: 50px;
+  border-radius: 36px;
   background-color: #1e1e1e;
   border: none;
   color: white;
   font-size: 1.5rem;
+  display: flex;              /* Para alinhar conteúdo interno */
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;  
 }
 
 /* Correção pente fino para telas menores que 427px */
@@ -151,6 +156,11 @@ body {
     height: 100%;
     cursor: pointer;
     font-size: clamp(16px, 2.5vw, 35px);
+  }
+
+  .botao:hover {
+    outline: 2px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
   }
 
   .botoes {
