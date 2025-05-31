@@ -167,7 +167,7 @@ body {
     height: 6rem;
     flex-direction: row;
     justify-content: start;
-    gap: 4rem;
+    gap: 2rem;
   }
 
   #titulo-principal {
