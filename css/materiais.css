@@ -152,3 +152,35 @@ form {
 #botao-menu:hover {
   background-color: #707070;
 }
+
+@media (min-width: 1200px) {
+  .console {
+    max-width: none;
+    width: 50%;
+  }
+
+  .vermelho,
+  .verde,
+  .amarelo {
+    width: 25px;
+    height: 25px;
+  }
+
+  form {
+    width: 50%;
+    justify-self: center;
+  }
+
+  #titulo-materiais {
+    justify-self: center;
+    width: 50%;
+    font-size: 3.2rem;
+    text-align: center;
+  }
+
+  #input-nome, #input-email, #botao-menu, #botao-enviar {
+    max-width: none;
+    font-size: 1.5rem;
+  }
+
+}
