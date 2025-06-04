@@ -157,6 +157,7 @@ form {
   .console {
     max-width: none;
     width: 50%;
+  margin-top: 7rem;
   }
 
   .vermelho,
